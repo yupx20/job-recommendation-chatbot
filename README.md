@@ -1,4 +1,4 @@
-_# Streamlit Gemini Model Chatbot
+### Streamlit Gemini Model Chatbot
 
 This is a Streamlit web application that provides a chatbot interface for Google's Gemini API. It supports text and multimodal inputs (PDF, image, audio), output copying, and prompt editing.
 
@@ -16,7 +16,7 @@ This is a Streamlit web application that provides a chatbot interface for Google
 
     ```bash
     git clone <repository_url>
-    cd streamlit-gemini-chatbot
+    cd job-recommendation-chatbot
     ```
 
 2.  **Install dependencies:**
@@ -26,21 +26,6 @@ This is a Streamlit web application that provides a chatbot interface for Google
     ```bash
     pip install -r requirements.txt
     ```
-
-3.  **Set up your API Key:**
-
-    -   Get your Gemini API key from [Google AI Studio](https://ai.google.dev/).
-    -   Create a `.env` file in the project root by copying the `.env.example` file:
-
-        ```bash
-        cp .env.example .env
-        ```
-
-    -   Open the `.env` file and add your API key:
-
-        ```
-        GEMINI_API_KEY=your_api_key_here
-        ```
 
 ## How to Run
 
@@ -54,7 +39,7 @@ The application will be accessible at `http://localhost:8501` in your web browse
 
 ## How to Use
 
-1.  **Configure API Key:** If you haven't set up the `.env` file, you can enter your API key in the sidebar.
+1.  **Configure API Key:** You can enter your API key in the sidebar.
 2.  **Select Model:** Choose a Gemini model from the dropdown in the sidebar.
 3.  **Adjust Parameters:** Set the temperature and max output tokens as needed.
 4.  **Chat:** Type your message in the chat input at the bottom of the page.
