@@ -1,4 +1,4 @@
-_# Streamlit Gemini Model Chatbot
+_# Streamlit Gemini Chatbot
 
 This is a Streamlit web application that provides a chatbot interface for Google's Gemini API. It supports text and multimodal inputs (PDF, image, audio), output copying, and prompt editing.
 
@@ -21,7 +21,7 @@ This is a Streamlit web application that provides a chatbot interface for Google
 
 2.  **Install dependencies:**
 
-    Make sure you have Python 3.9+ installed. Then, install the required packages:
+    Make sure you have Python 3.7+ installed. Then, install the required packages:
 
     ```bash
     pip install -r requirements.txt
@@ -47,7 +47,7 @@ This is a Streamlit web application that provides a chatbot interface for Google
 Once you have completed the setup, you can run the Streamlit application:
 
 ```bash
-streamlit run job_chatbot.py
+streamlit run app.py
 ```
 
 The application will be accessible at `http://localhost:8501` in your web browser.
@@ -61,3 +61,4 @@ The application will be accessible at `http://localhost:8501` in your web browse
 5.  **Attach Files:** Use the file uploader to attach images, PDFs, or audio files to your message.
 6.  **Copy Response:** Click the "Copy" button below an assistant message to copy it to your clipboard.
 7.  **Edit Prompt:** Click the "Edit" button below one of your messages to modify it and resend it.
+
