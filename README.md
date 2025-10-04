@@ -1,4 +1,4 @@
-### Streamlit Gemini Model Chatbot
+# Streamlit Gemini Model Chatbot
 
 This is a Streamlit web application that provides a chatbot interface for Google's Gemini API. It supports text and multimodal inputs (PDF, image, audio), output copying, and prompt editing.
 
