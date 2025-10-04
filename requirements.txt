@@ -1,6 +1,6 @@
 streamlit
-google-generativeai
-python-dotenv
-Pillow
-pypdf
-pydub
+langchain-google-genai
+langgraph
+langchain-core
+pillow
+pymupdf
